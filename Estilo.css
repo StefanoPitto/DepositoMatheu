@@ -1,0 +1,43 @@
+#header{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25pt;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+#listanav{
+	list-style-type: none;
+	font-size: 20pt;
+	text-align: center;
+
+}
+
+#listanav li{
+	display: inline;
+	text-align: center;
+	margin: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#inforedes ul{
+	list-style-type: none;
+}
+#inforedes li{
+	font-size:18pt;
+	font-family: sans-serif;
+}
+#logos{
+	max-height: 60px;
+	max-width: 60px;
+	vertical-align: middle;
+}
+
+#fb{
+	vertical-align:middle;
+
+}
