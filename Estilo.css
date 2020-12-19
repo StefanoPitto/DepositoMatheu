@@ -2,6 +2,11 @@
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 25pt;
 	text-align: center;
+	size: 50%;
+}
+
+#cuerpo{
+	background-color: #f35151;
 }
 
 a {
@@ -9,23 +14,41 @@ a {
 	color:black;
 }
 
+#logoDeposito{
+	height: 10%;
+	width: 10%;
+}
+
 #listanav{
 	list-style-type: none;
 	font-size: 20pt;
 	text-align: center;
-
+	background: linear-gradient(to bottom,rgb(247, 42, 42),rgb(255, 255, 255));
 }
 
-#listanav li{
-	display: inline;
+
+.itemNav{
+	padding: 0%;
+	display: inline !important;
 	text-align: center;
-	margin: 20px;
+	margin: 30px;
 	font-family: Arial, Helvetica, sans-serif;
+	border-left-color: white;
+	border-left-width: 0.5px;
+	border-left-style: solid;
+	border-right-color: white;
+	border-right-width: 2px;
+	border-right-style: solid;
 }
 
-
+#listanav li text{
+	margin: 10%;
+}
 #inforedes ul{
 	list-style-type: none;
+	background: linear-gradient(to bottom,rgb(247, 42, 42),rgb(216, 216, 214));
+	border-radius: 30px;
+	width: 17%;
 }
 #inforedes li{
 	font-size:18pt;
